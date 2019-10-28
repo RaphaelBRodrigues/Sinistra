@@ -5,6 +5,13 @@ body{
 border-bottom: 1px solid rgba(106,32,23,1);
 animation:8s cor linear;
 }
+#eventos{
+  width: 4em;
+  border-bottom: 9px solid rgba(106,32,23,1);
+  border-bottom-width: 0.1em;
+  border-bottom-left-radius: 10px;
+
+}
 @keyframes cor {
   0%{
     background-image: linear-gradient(to right,rgba(106,32,23,1),rgba(0,0,0,1));
@@ -48,13 +55,20 @@ animation:8s cor linear;
   }
 
 }
+
+.main{
+  margin-top: 1em;
+}
+.main-img{
+  border: 1px solid rgba(106,32,23,1);
+  border-radius: 1em;
+}
 #logo{
 height: 5em;
 border: 1px solid rgba(106,32,23,0);
 transition-timing-function: linear;
 transition-duration: 0.3s;
 animation: 5s giro linear;
-border: 2px solid black;
 border-radius: 5em;
 }
 @keyframes giro {
@@ -88,6 +102,17 @@ nav div button span::first-letter{
 }
 nav div button{
   display: none;
+}
+div h4 sup{
+  font-size: 0.6em;
+}
+.evento-bloco{
+  border: 5px solid rgba(106,32,23,1);
+  border-radius: 0.5em;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+border-left-style: dotted;
+border-left-width: thick;
 }
 @media screen and (max-width:1000px) {
 nav div button{
