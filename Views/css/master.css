@@ -1,6 +1,18 @@
 body{
   background-color: rgba(16,12,14,1);
 }
+.btn-outline-danger{
+color: rgba(186,32,23,1);
+border: 2px solid rgba(106,32,23,1);
+
+}
+.btn-outline-danger:hover{
+background-color: rgba(186,32,23,1);
+color:white;
+border: 2px solid rgba(106,32,23,1);
+
+}
+
 .navbar-expand-lg{
 border-bottom: 1px solid rgba(106,32,23,1);
 animation:8s cor linear;
@@ -11,6 +23,33 @@ animation:8s cor linear;
   border-bottom-width: 0.1em;
   border-bottom-left-radius: 10px;
 
+}
+.fotos-esquerda{
+  margin-left: 9em;
+}
+.fotos-direita{
+  margin-right: 9em;
+}
+#galeria{
+  width: 4em;
+  border-bottom: 9px solid rgba(106,32,23,1);
+  border-bottom-width: 0.1em;
+  border-bottom-left-radius: 10px;
+
+}
+.fotos-bot{
+  margin-bottom: 1em;
+}
+.fotos{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: 2px solid rgba(106,32,23,1);
+  border-radius: 1em;
+
+}
+.fotos-foto{
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 #val{
   margin-left: 40%;
@@ -139,4 +178,13 @@ nav div button{
   #logo{
 margin-left: 1em;
   }
+  .fotos-esquerda{
+float: left;
+  }
+  .fotos-direita{
+    margin-left: 9em;
+
+    float: left;
+  }
+
 }
