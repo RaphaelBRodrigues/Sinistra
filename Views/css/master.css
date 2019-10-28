@@ -1,0 +1,108 @@
+body{
+  background-color: rgba(0,0,0,1);
+}
+.navbar-expand-lg{
+border-bottom: 1px solid rgba(106,32,23,1);
+animation:8s cor linear;
+}
+@keyframes cor {
+  0%{
+    background-image: linear-gradient(to right,rgba(106,32,23,1),rgba(0,0,0,1));
+
+  }
+  10%{
+    background-image: linear-gradient(to right,rgba(106,32,23,0.9),rgba(0,0,0,1));
+
+  }
+  20%{
+    background-image: linear-gradient(to right,rgba(106,32,23,0.8),rgba(0,0,0,1));
+
+  }
+  30%{
+    background-image: linear-gradient(to right,rgba(106,32,23,0.7),rgba(0,0,0,1));
+
+  }
+  40%{
+    background-image: linear-gradient(to right,rgba(106,32,23,0.6),rgba(0,0,0,1));
+
+  }
+  50%{
+    background-image: linear-gradient(to right,rgba(106,32,23,0.5),rgba(0,0,0,1));
+
+  }
+  60%{
+    background-image: linear-gradient(to right,rgba(106,32,23,0.4),rgba(0,0,0,1));
+
+  }
+  70%{
+    background-image: linear-gradient(to right,rgba(106,32,23,0.3),rgba(0,0,0,1));
+
+  }
+  80%{
+    background-image: linear-gradient(to right,rgba(106,32,23,0.2),rgba(0,0,0,1));
+
+  }
+  90%{
+    background-image: linear-gradient(to right,rgba(106,32,23,0.1),rgba(0,0,0,1));
+
+  }
+
+}
+#logo{
+height: 5em;
+border: 1px solid rgba(106,32,23,0);
+transition-timing-function: linear;
+transition-duration: 0.3s;
+animation: 5s giro linear;
+border: 2px solid black;
+border-radius: 5em;
+}
+@keyframes giro {
+0%{transform: rotate(0deg);}
+50%{transform: rotate(360deg); border: 2px dotted gray;}
+0%{transform: rotate(0deg);border: 1px solid rgba(106,32,23,0);}
+}
+.nav-link{
+color:rgba(106,32,23,1);
+}
+#button-menu:hover + #logo{
+  border: 1px solid rgba(106,32,23,1);
+}
+#button-menu:hover + body{
+background-color: yellow;
+}
+nav div button span{
+  color:gray;
+  display: none;
+  font-size: 1.2em;
+
+}
+nav div button span::first-letter{
+  font-size: 1.3em;
+}
+.navbar-collapse{
+  display:inherit;
+}
+.navbar-nav{
+  display: inherit;
+}
+nav div button{
+  display: none;
+}
+@media screen and (max-width:1000px) {
+nav div button{
+  display: inherit;
+}
+  nav div button span{
+    display: inherit;
+  }
+  .navbar-collapse{
+    display:inherit;
+  }
+  .navbar-nav{
+    display: inherit;
+  }
+  #logo{
+margin-left: 1em;
+  }
+}
