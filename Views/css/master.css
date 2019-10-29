@@ -1,8 +1,17 @@
+@font-face {
+font-family: metal;
+src :url(Heavy Metal Rocking);
+}
+@font-face {
+font-family: metal2;
+src :url(CRAWLER-RegularDEMO);
+}
 body{
   background-color: rgba(0,0,0,1);
 }
 h1{
   margin-top: 2em;
+  font-family: metal2;
 }
 .btn-outline-danger{
 color: rgba(186,32,23,1);
@@ -142,6 +151,7 @@ nav div button span{
   color:gray;
   display: none;
   font-size: 1.2em;
+  font-family: metal;
 
 }
 nav div button span::first-letter{
