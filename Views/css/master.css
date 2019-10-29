@@ -1,5 +1,8 @@
 body{
-  background-color: rgba(16,12,14,1);
+  background-color: rgba(0,0,0,1);
+}
+h1{
+  margin-top: 2em;
 }
 .btn-outline-danger{
 color: rgba(186,32,23,1);
@@ -21,6 +24,7 @@ animation:8s cor linear;
   width: 4em;
   border-bottom: 9px solid rgba(106,32,23,1);
   border-bottom-width: 0.1em;
+  margin-top: 1em;
   border-bottom-left-radius: 10px;
 
 }
@@ -32,6 +36,7 @@ animation:8s cor linear;
 }
 #galeria{
   width: 4em;
+
   border-bottom: 9px solid rgba(106,32,23,1);
   border-bottom-width: 0.1em;
   border-bottom-left-radius: 10px;
@@ -57,8 +62,8 @@ animation:8s cor linear;
 }
 #video{
   width: 100%;
-  background-color: blue;
-padding-top: 0px;
+  background-color: black;
+border-top: 5px solid
 }
 @keyframes cor {
   0%{
@@ -186,5 +191,32 @@ float: left;
 
     float: left;
   }
-
+  #button-menu{
+    font-size: 1.6em;
+  }
+  .nav-link{
+    font-size: 2.4em;
+    font-weight: bold;
+    margin-left: 1em;
+  }
+  h1{
+    font-size: 3.8em;
+  }
+  .evento-bloco .text-warning{
+    font-size: 0.5em;
+  }
+  .evento-bloco .text-danger{
+    font-size: 2em;
+  }
+  .evento-bloco #val{
+    font-size: 0.5em;
+  }
+  .evento-bloco h6{
+    font-size: 2em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+  .evento-bloco .btn{
+    font-size: 2em;
+  }
 }
