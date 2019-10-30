@@ -1,2 +1,2 @@
 # Sinistra
-<img src='Views/src/qr.jpg'>
+<img src='Views/src/qr.png'>
