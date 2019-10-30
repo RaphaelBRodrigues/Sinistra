@@ -9,5 +9,5 @@ function carrosel(){
 
 
 }
-setInterval(function(){carrosel()},2500);
+// setInterval(function(){carrosel()},2500);
 });

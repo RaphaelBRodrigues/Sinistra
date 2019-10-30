@@ -1,6 +1,5 @@
-@font-face {
-font-family: metal;
-src :url(Heavy Metal Rocking);
+body{
+  background-image: linear-gradient(to bottom,black,black,black);
 }
 nav{
   position: fixed;
@@ -23,12 +22,17 @@ div span img{
   margin-right: 0.8em;
 }
 @font-face {
-font-family: metal2;
-src :url(CRAWLER-RegularDEMO);
+font-family: metal;
+src :url(fontes/Heavy Metal Rocking.ttf);
 }
 @font-face {
-font-family:logo;
-src :url('https://www.dafont.com/pt/social-media-circled.font');
+font-family: metal2;
+src :url(fontes/CRAWLER-RegularDEMO.ttf);
+}
+@font-face {
+
+src :url(fontes/fontemetal.ttf);
+font-family:meta;
 }
 span{
   font-family: logo;
@@ -36,12 +40,20 @@ span{
 body{
   background-color: rgba(0,0,0,1);
 }
+.fotos-nome{
+
+    text-shadow: 4px 2px black;
+  }
 .fotos img{
   border-radius: 0.3em;
+  background-image: radial-gradient(grey, grey);
+  /* box-shadow: 3px 3px 1px; */
 }
 h1{
+  font-weight: 100;
   margin-top: 2em;
-  font-family:old english;
+  font-size: 3em;
+  font-family:metal2;
 }
 .btn-outline-danger{
 color: rgba(186,32,23,1);
@@ -61,7 +73,7 @@ border-bottom: 1px solid rgba(106,32,23,1);
 animation:8s cor linear;
 }
 #eventos{
-  width: 4em;
+  width: 2.8em;
   border-bottom: 9px solid rgba(106,32,23,1);
   border-bottom-width: 0.1em;
   margin-top: 1em;
@@ -69,13 +81,15 @@ animation:8s cor linear;
 
 }
 .fotos-esquerda{
+
+
   margin-left: 9em;
 }
 .fotos-direita{
   margin-right: 9em;
 }
 #galeria{
-  width: 4em;
+  width: 2.5em;
 
   border-bottom: 9px solid rgba(106,32,23,1);
   border-bottom-width: 0.1em;
@@ -83,7 +97,7 @@ animation:8s cor linear;
 
 }
 #integrantes{
-  width: 5em;
+  width: 4.2em;
 
   border-bottom: 9px solid rgba(106,32,23,1);
   border-bottom-width: 0.1em;
@@ -92,7 +106,7 @@ animation:8s cor linear;
 }
 
 #albuns{
-  width: 5em;
+  width: 2.5em;
 
   border-bottom: 9px solid rgba(106,32,23,1);
   border-bottom-width: 0.1em;
@@ -100,7 +114,7 @@ animation:8s cor linear;
 
 }
 #contato{
-  width: 5em;
+  width: 2.7em;
 
   border-bottom: 9px solid rgba(106,32,23,1);
   border-bottom-width: 0.1em;
@@ -116,12 +130,33 @@ font-size: 1.5em;
 }
 .fotos-bot{
   margin-bottom: 1em;
+
+}
+.fotos:hover{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  /* border: 4px solid grey; */
+  border-radius: 0.3em;
+  /* background-image: radial-gradient(black,black,grey); */
+  /* background-image: linear-gradient(to bottom,gray,black,black,black,black,grey); */
+  box-shadow: 1px 1px 3px 3px red;
+}
+.btn:active{
+  border: 1px solid red;
+}
+.btn:focus{
+  border: 1px solid red;
+
 }
 .fotos{
   padding-top: 1em;
   padding-bottom: 1em;
-  border: 2px solid rgba(106,32,23,1);
+  /* border: 4px solid grey; */
   border-radius: 0.3em;
+  /* background-image: radial-gradient(black,black,grey); */
+  /* background-image: linear-gradient(to bottom,gray,black,black,black,black,grey); */
+  /* box-shadow: 1px 1px 3px 3px rgba(255,255,255,0.5);   */
+  transition-duration: 0.7s;
 
 }
 .fotos-foto{
@@ -305,11 +340,9 @@ margin-left: 35%;
     margin-bottom: 0.3em;
   }
   .evento-bloco .btn{
-    font-size: 2em;
+    font-size: 3em;
   }
-  .fotos h2{
-    font-size: 4em;
-  }
+
   .fotos .btn{
     font-size: 3em;
     border-radius: 0.5em;
