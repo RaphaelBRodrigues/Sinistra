@@ -17,8 +17,7 @@ a:hover{
   color:inherit;
   text-decoration: none;
 }
-.integrante-nome{
-}
+
 div span img{
   height: 2em;
   margin-right: 0.8em;
@@ -30,7 +29,7 @@ src :url(fontes/Heavy Metal Rockin.ttf);
 
 @font-face {
 font-family: icones;
-src :url(logos.ttf);
+src :url(fontes/logos.ttf);
 }
 @font-face {
 font-family: metal2;
@@ -41,10 +40,20 @@ src :url(fontes/CRAWLER-RegularDEMO.ttf);
 src :url(fontes/fontemetal.ttf);
 font-family:meta;
 }
+
+@font-face {
+
+src :url(fontes/Long_Shot.ttf);
+font-family:subt;
+}
+h2{
+  font-family: subt;
+}
 .icon{
   font-size: 2.5em;
+  margin-right: 0.2em;
   font-family: icones;
-  filter: grayscale(100) invert(100) brightness(100);
+  /* filter: invert(100); */
 
 }
 body{
@@ -97,6 +106,20 @@ animation:8s cor linear;
 }
 .fotos-direita{
   margin-right: 9em;
+}
+#edu{
+  float: left;
+}
+#luis{
+  float: left;
+}
+#nando{
+  float: right;
+
+}
+#rafael{
+  float: right;
+
 }
 #galeria{
   width: 2.5em;
@@ -152,6 +175,20 @@ font-size: 1.5em;
   /* background-image: linear-gradient(to bottom,gray,black,black,black,black,grey); */
   box-shadow: 1px 1px 3px 3px red;
 }
+div center img{
+  height:25em;
+}
+.integrante-bloco:hover{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  /* border: 4px solid grey; */
+  border-radius: 0.3em;
+  /* background-image: radial-gradient(black,black,grey); */
+  /* background-image: linear-gradient(to bottom,gray,black,black,black,black,grey); */
+border-bottom: 1px solid red;
+border-top: 1px solid red;
+}
+
 .btn:active{
   border: 1px solid red;
 }
@@ -186,10 +223,44 @@ font-size: 1.5em;
 border-bottom: 1px solid rgba(106,32,23,1);
 }
 .integrante-bloco{
-  border-radius: 0.3em;
-  border: 1px solid rgba(106,32,23,1);
-padding:  1em  1em  1em  1em;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 
+  border-radius: 0.3em;
+  transition-duration: 0.70s;
+padding:  1em  1em  1em  1em;
+box-shadow: 1px 1px 3px 3px black;
+
+}
+.single{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  border-radius: 0.3em;
+  transition-duration: 0.70s;
+padding:  2em  2em  2em  2em;
+box-shadow: 1px 1px 3px 3px black;
+
+}
+.s1{
+  float: left;
+  margin-left: 7em;
+}
+.s2{
+  float: right;
+
+  margin-right: 7em;
+}
+.single:hover{
+
+box-shadow: 1px 1px 3px 3px red;
+
+}
+.single-video{
+width: 100%;
+}
+.integrante-nome{
+  font-size: 1.8em;
 }
 .integrante-bloco h2{
   margin-top: 0.5em;
