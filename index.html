@@ -38,8 +38,8 @@
    <ul class='navbar-nav mx-lg-auto'>
     <li class='nav-item'><a href="#eventos" class='nav-link'>Eventos</a></li>
     <li class='nav-item'><a href="#galeria" class='nav-link'>Galeria</a></li>
-    <li class='nav-item'><a href="#" class='nav-link'>Músicas</a></li>
-    <li class='nav-item'><a href="#" class='nav-link'>Contato</a></li>
+    <li class='nav-item'><a href="#albuns" class='nav-link'>Singles</a></li>
+    <li class='nav-item'><a href="#contato" class='nav-link'>Contato</a></li>
   </ul>
 </div>
 
@@ -275,18 +275,35 @@ Meu fim
 </div>
 </div>
 <h1 class='text text-danger ml-5 mb-5 mt-5 ' id='contato'>Contato</h1>
+<!-- <div class="container-fluid">
 
 <div class='col-3 container icon-yt'>
 <img class='img-fluid col-12' src="Views/src/yt.png">
-
 </div>
 
-<div class='col-3 container icon-fb '>
+<div class='col-3 container icon-fb'>
 <img class='img-fluid col-12' src="Views/src/fb.png">
-
 </div>
 
+</div> -->
 
+
+
+<div class='mx-auto py-4'>
+<form method="POST" id='em' class='form-group py-4 mx-auto col-lg-5 col-sm-9 mx-lg-auto text-center' action="https://formspree.io/tiunasp801@gmail.com">
+		<h2 id='e' class='text text-danger'>Envie-nos um e-mail</h2>
+	<div class='form-group'>
+  <input type="email" class='form-control py-4'  id='email' name="email" placeholder="Seu email">
+  </div>
+  	<div class='form-group'>
+ <input name="message" class='form-control py-4' id='tit-emai' placeholder="Titulo"></input>
+  <textarea name="message" class='form-control py-4' id='emai' placeholder="Mensagem"></textarea>
+</div>
+  <button class='btn btn-outline-danger' type='reset' id='limpar' >Limpar campos</button>
+   <button class='btn btn-outline-success' type="submit">Enviar email</button>
+</form>
+
+</div>
 <footer><Center>Desenvolvido por <a target="_blank" href="https://raphaelbrodrigues.github.io">?</a></center></footer>
   </body>
 </html>
