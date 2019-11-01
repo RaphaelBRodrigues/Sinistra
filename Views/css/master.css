@@ -166,6 +166,9 @@ font-size: 1.5em;
   margin-bottom: 1em;
 
 }
+.integrante-foto {
+  margin-top: 1em;
+}
 .fotos:hover{
   padding-top: 1em;
   padding-bottom: 1em;
@@ -195,6 +198,23 @@ border-top: 1px solid red;
 .btn:focus{
   border: 1px solid red;
 
+}
+.icon-yt{
+  margin-left: 5em;
+  float: left;
+}
+.icon-fb{
+
+  margin-right:5em;
+  float: right;
+
+}
+
+i{
+  font-family: icones;
+}
+.letra{
+  text-align: left;
 }
 .fotos{
   padding-top: 1em;
@@ -373,6 +393,11 @@ border-left-width: thick;
 nav div button{
   display: inherit;
 }
+integrante-bloco{
+  float: inherit;
+margin-left: 0em;
+margin-right: 0em;
+}
   nav div button span{
     display: inherit;
   }
@@ -432,4 +457,5 @@ margin-left: 35%;
   .integrante-bloco div a span{
     height: 0.5em;
   }
+
 }
