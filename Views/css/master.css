@@ -208,7 +208,7 @@ border-bottom: 1px solid red;
 border-top: 1px solid red;
 }
 
-.form-group:hover{
+form:hover{
   padding-top: 1em;
   padding-bottom: 1em;
   /* border: 4px solid grey; */
@@ -218,7 +218,11 @@ border-top: 1px solid red;
   box-shadow: 1px 1px 3px 3px red;
 
 }
-.form-group{
+.form-control{
+    border-bottom: 1px solid black;
+
+}
+form{
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 
@@ -299,11 +303,11 @@ padding:  2em  2em  2em  2em;
 box-shadow: 1px 1px 3px 3px black;
 
 }
-.s1{
+#s1{
   float: left;
   margin-left: 7em;
 }
-.s2{
+#s2{
   float: right;
 
   margin-right: 7em;
@@ -469,30 +473,65 @@ margin-left: 1em;
   }
   .evento-bloco .text-warning{
     font-size: 0.8em;
-  7
+  }
   .evento-bloco .text-danger{
     font-size: 2em;
   }
+
+
 #val{
-    font-size: 1em;
-margin-left: 35%;
-  }
+     font-size: 0.8em;
+float: right;
+top: -0.8em;
+ }
 
   .evento-bloco h6{
-    font-size: 2em;
+    font-size: 2.5em;
     margin-top: 0.3em;
     margin-bottom: 0.3em;
   }
   .evento-bloco .btn{
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   .fotos .btn{
-    font-size: 3em;
     border-radius: 0.5em;
   }
   .integrante-bloco div a span{
     height: 0.5em;
   }
+  #edu{
+  float: inherit;
+margin-left: auto;
+}
+#luis{
+    float: inherit;
+margin-left: auto;
+}
 
+  #nando{
+  float: inherit;
+margin-left: auto;
+}
+  #rafael{
+   float: inherit;
+margin-left: auto;
+}
+div center img{
+  height:auto;
+}
+.single-video{
+  height: 24em;
+}
+#s1{
+  float: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+#s2{
+  float: inherit;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 }
