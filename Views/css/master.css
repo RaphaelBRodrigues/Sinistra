@@ -493,6 +493,12 @@ top: -0.8em;
   .evento-bloco .btn{
     font-size: 2.5em;
   }
+  .single .btn{
+    font-size: 2.5em;
+  }
+  form .btn{
+    font-size: 2.5em;
+  }
 
   .fotos .btn{
     border-radius: 0.5em;
