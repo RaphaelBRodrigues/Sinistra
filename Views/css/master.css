@@ -1,6 +1,7 @@
 body{
   background-image: linear-gradient(to bottom,black,black,black);
 }
+
 nav{
   position: fixed;
   width: 100%;
@@ -31,6 +32,12 @@ src :url(fontes/Heavy Metal Rockin.ttf);
 font-family: icones;
 src :url(fontes/logos.ttf);
 }
+
+@font-face {
+font-family: fbloc;
+src :url(fontes/fbloco.ttf);
+}
+
 @font-face {
 font-family: metal2;
 src :url(fontes/CRAWLER-RegularDEMO.ttf);
@@ -222,10 +229,10 @@ form:hover{
     border-bottom: 1px solid black;
 
 }
+
 form{
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-
   border-radius: 0.3em;
   transition-duration: 0.70s;
 padding:  1em  1em  1em  1em;
@@ -317,6 +324,7 @@ box-shadow: 1px 1px 3px 3px black;
 box-shadow: 1px 1px 3px 3px red;
 
 }
+
 .single-video{
 width: 100%;
 }
@@ -422,6 +430,9 @@ nav div button{
 div h4 sup{
   font-size: 0.6em;
 }
+.evento-bloco h4{
+  font-family: fbloco;
+}
 .evento-bloco{
   border: 5px solid rgba(106,32,23,1);
   border-radius: 0.5em;
@@ -470,6 +481,8 @@ margin-left: 1em;
   }
   h1{
     font-size: 3.8em;
+    margin-bottom: 1em;
+    margin-top: 1em;
   }
   .evento-bloco .text-warning{
     font-size: 0.8em;
@@ -484,7 +497,9 @@ margin-left: 1em;
 float: right;
 top: -0.8em;
  }
-
+.integrante-bloco{
+  margin-bottom: 1em;
+}
   .evento-bloco h6{
     font-size: 2.5em;
     margin-top: 0.3em;
@@ -539,5 +554,14 @@ div center img{
   margin-left: auto;
   margin-right: auto;
 
+}
+.op{
+  display: none;
+}
+.integrante-bloco .icon{
+  font-size: 4em;
+}
+.form-control{
+  font-size: 3em;
 }
 }
