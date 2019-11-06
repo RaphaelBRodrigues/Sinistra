@@ -1,7 +1,25 @@
 body{
   background-image: linear-gradient(to bottom,black,black,black);
 }
+div a img{
+  font-size: 4em;
+  font-style: normal;
+}
+.cont{
+	margin-top: 1em;
+	border-radius: 1em;
+	background-color: rgba(0,0,0,0);
+	/* border: 1px solid rgba(106,32,23,1); */
+	overflow: auto;
+	padding: 1em;
+  transition-duration: 0.7s;
+  box-shadow: 1px 1px 3px 3px black;
 
+}
+.cont:hover{
+  box-shadow: 1px 1px 3px 3px red;
+
+}
 nav{
   position: fixed;
   width: 100%;
