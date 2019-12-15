@@ -11,7 +11,7 @@ div a img{
 	background-color: rgba(0,0,0,0);
 	/* border: 1px solid rgba(106,32,23,1); */
 	overflow: auto;
-	padding: 1em;
+	padding: 1em 0em 1em 0em;
   transition-duration: 0.7s;
   box-shadow: 1px 1px 3px 3px black;
 
@@ -285,12 +285,19 @@ i{
 .fotos{
   padding-top: 1em;
   padding-bottom: 1em;
-  /* border: 4px solid grey; */
+  /* border:
+
+
+
+  4px solid grey; */
   border-radius: 0.3em;
   /* background-image: radial-gradient(black,black,grey); */
   /* background-image: linear-gradient(to bottom,gray,black,black,black,black,grey); */
   /* box-shadow: 1px 1px 3px 3px rgba(255,255,255,0.5);   */
   transition-duration: 0.7s;
+  margin-left: auto;
+  margin-right: auto;
+  display: inherit;
 
 }
 .fotos-foto{
@@ -324,19 +331,16 @@ box-shadow: 1px 1px 3px 3px black;
 
   border-radius: 0.3em;
   transition-duration: 0.70s;
-padding:  2em  2em  2em  2em;
+padding-bottom: 2em;
+padding-top: 2em;
 box-shadow: 1px 1px 3px 3px black;
+display: inherit;
+margin-left: auto;
+margin-right: auto;
+padding-left: 3em;
+padding-right: 3em;
+}
 
-}
-#s1{
-  float: left;
-  margin-left: 7em;
-}
-#s2{
-  float: right;
-
-  margin-right: 7em;
-}
 .single:hover{
 
 box-shadow: 1px 1px 3px 3px red;
@@ -480,15 +484,7 @@ margin-right: 0em;
   #logo{
 margin-left: 1em;
   }
-  .fotos-esquerda{
-    float: inherit;
-    margin-left: 0em;
-  }
-  .fotos-direita{
-    float: inherit;
 
-    margin-right: 0em;
-  }
   #button-menu{
     font-size: 1.6em;
   }
@@ -559,20 +555,8 @@ margin-left: auto;
 div center img{
   height:auto;
 }
-.single-video{
-  height: 24em;
-}
-#s1{
-  float: inherit;
-  margin-left: auto;
-  margin-right: auto;
-}
-#s2{
-  float: inherit;
-  margin-left: auto;
-  margin-right: auto;
 
-}
+
 .op{
   display: none;
 }
